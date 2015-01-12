@@ -1,27 +1,27 @@
-package com.example.yuanje.criminalintent;
+package com.example.yuanje.hellomoon;
 
-import android.app.Fragment;
+import android.support.v7.app.ActionBarActivity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 
-import java.util.UUID;
 
-
-public class CrimeActivity extends SingleFragmentActivity {
+public class HelloMoonActivity extends ActionBarActivity {
 
     @Override
-    protected Fragment createFragment() {
-        //return new CrimeFragment();
-        UUID crimeId = (UUID)getIntent().getSerializableExtra(CrimeFragment.EXTRA_CRIME_ID);
-
-        return CrimeFragment.newInstance(crimeId);
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_hello_moon);
     }
 
-/*
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_crime, menu);
+        getMenuInflater().inflate(R.menu.menu_hello_moon, menu);
         return true;
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -35,5 +35,5 @@ public class CrimeActivity extends SingleFragmentActivity {
         }
 
         return super.onOptionsItemSelected(item);
-    }*/
+    }
 }
