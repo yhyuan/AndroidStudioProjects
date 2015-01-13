@@ -1,4 +1,4 @@
-package com.example.yuanje.criminalintent;
+package com.example.yuanje.nerdlauncher;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 
 /**
- * Created by yuanje on 01/08/2015.
+ * Created by yuanje on 01/13/2015.
  */
 public abstract class SingleFragmentActivity extends ActionBarActivity {
     protected abstract Fragment createFragment();
