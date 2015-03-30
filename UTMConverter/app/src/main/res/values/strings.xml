@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UTM Converter</string>
+    <string name="utmZone">Zone:</string>
+    <string name="utmEasting">Easting:</string>
+    <string name="utmNorthing">Northing:</string>
+    <string name="action_settings">Settings</string>
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="convertToUTM">Convert to UTM</string>
+    <string name="latlngWrongFormatMessage">Error! Please make sure the latitude and longitude are decimal numbers and the range of latitude and longitude are between -90 to 90 and -180 to 180.</string>
+    <string name="app_help">This app converts a latitude longitude pair to UTM coordinates in WGS 84.</string>
+</resources>
